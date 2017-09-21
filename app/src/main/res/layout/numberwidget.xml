@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@color/white">
+    <LinearLayout
+        android:id="@+id/ll_reduce"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_reduce"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text=""
+            android:background="@drawable/icon_reduce"
+            android:textSize="18sp"
+            android:padding="5dp"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:minWidth="30dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#EA2D15"
+        android:padding="3dp"
+        android:background="@color/white"
+        android:editable="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@+id/tv_plus"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="@drawable/icon_plus"
+        android:textSize="18sp"
+        android:padding="5dp"/>
+
+</LinearLayout>

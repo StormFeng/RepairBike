@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">ThirdPackage</string>
+    <string name="__picker_title">Images</string>
+    <string name="__picker_delete">Delete</string>
+    <string name="__picker_done">Done</string>
+    <string name="__picker_done_with_count">完成(%1$d/%2$d)</string>
+    <string name="__picker_image_index">%1$d/%2$d</string>
+    <string name="__picker_undo">Undo</string>
+    <string name="__picker_deleted_a_photo">Deleted a photo</string>
+    <string name="__picker_confirm_to_delete">Confirm to delete?</string>
+    <string name="__picker_yes">Yes</string>
+    <string name="__picker_cancel">Cancel</string>
+    <string name="__picker_all_image">全部图片</string>
+    <string name="__picker_image_count">%1$d</string>
+    <string name="__picker_over_max_count_tips">You can only select %1$d images</string>
+
+
+    <!-- 加载默认页面 -->
+    <string name="not_data">暂无数据哟</string>
+    <string name="loading">加载中...</string>
+    <string name="loading1">加载中</string>
+    <string name="loading_fail">网络加载失败</string>
+    <string name="not_more_data">没有更多数据</string>
+    <string name="onclick_load_more">点击加载更多</string>
+    <string name="onclick_reload_more">加载失败，点击重新加载</string>
+    <string name="load_finish">已经加载完毕</string>
+    <string name="try_again">点击重试</string>
+
+    <!-- 下拉刷新控件 -->
+    <string name="btn_scroll_view">ScrollView demo</string>
+    <string name="btn_list_view">ListView demo</string>
+    <string name="header_hint_refresh_normal">Pull to refresh</string>
+    <string name="header_hint_refresh_ready">Release to refresh</string>
+    <string name="header_hint_refresh_loading">Refreshing&#8230;</string>
+    <string name="header_hint_refresh_time">Time：</string>
+    <string name="footer_hint_load_normal">Load more</string>
+    <string name="footer_hint_load_ready">Release to load more</string>
+    <!-- 二维码 -->
+    <string name="scan_text">请将二维码置于扫描框内即可自动扫描点击开灯可打开闪关灯</string>
+    <string name="from_photo1">相册选取</string>
+
+    <!-- 扫描二维码 -->
+    <string name="scan_qr_code">扫描二维码</string>
+    <string name="back">返回</string>
+    <string name="scan_success">扫描成功</string>
+    <string name="scan_fail">扫描失败</string>
+    <string name="scan_error">这不是有效的设备二维码，请确认</string>
+    <string name="have_binding">此网关已经绑定了用户，请选择另一个网关。</string>
+    <string name="user_have_binding">此网关已经绑定过，是否重新下载配置？</string>
+
+    <!-- 选择相册 -->
+    <string name="take_a_picture">拍照</string>
+    <string name="select_from_album">从相册中选择</string>
+    <string name="cancel">取消</string>
+    <string name="select_pic">选择图片</string>
+    <string name="submit_head_pic_error">无法保存上传的头像，请检查SD卡是否挂载</string>
+    <string name="title">标题</string>
+    <string name="left">左侧</string>
+    <string name="right">右侧</string>
+    <string name="net_error">网络异常</string>
+    <string name="parser_error">数据解析异常</string>
+
+    <!-- 更新软件 -->
+    <string name="is_update_version">是否要下载最新版本软件</string>
+    <string name="ok">确定</string>
+    <string name="warm_prompt">温馨提示：</string>
+
+    <string name="no_camera_permission">没有权限使用摄像头，请开启摄像头权限</string>
+    <string name="no_record_audio_permission">没有权限使用录音，请开启录音权限</string>
+</resources>

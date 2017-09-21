@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <color name="colorPrimary">#3F51B5</color>
+
+  <color name="__picker_pager_bg">#CA000000</color>
+  <color name="__picker_selected_bg">#44000000</color>
+  <color name="__picker_black_40">#282828</color>
+  <color name="__picker_common_primary">#f3f3f3</color>
+
+  <color name="__picker_text_40">#282828</color>
+  <color name="__picker_text_80">#505050</color>
+  <color name="__picker_text_120">#787878</color>
+  <color name="__picker_item_photo_border_selected">#ff99cc00</color>
+  <color name="__picker_item_photo_border_n">#33ffffff</color>
+
+  <!-- 下拉刷新 -->
+  <color name="dp_divider_line">#15000000</color>
+  <color name="dp_c_item_selected">#ffe2e2e2</color>
+  <color name="dp_c_item_unselected">#ffFBFBFB</color>
+  <color name="dp_white">#ffffffff</color>
+  <color name="dp_black">#ff000000</color>
+  <color name="dp_black_light_1">#ff333333</color>
+  <color name="dp_black_light_2">#ff4a4a4a</color>
+  <color name="dp_gray">#ff9B9B9B</color>
+  <color name="dp_red">#ffEB6563</color>
+  <color name="dp_blue">#ff037AFF</color>
+  <color name="transparent">#55ffffff</color>
+  <color name="tab_color">#ffffff</color>
+
+
+  <color name="white">#ffffff</color>
+  <color name="alpha">#00ffffff</color>
+  <color name="orange">#ff6b00</color>
+  <color name="green">#07A746</color>
+  <color name="black">#000000</color>
+  <color name="blue">#4A90E2</color>
+
+  <!-- 背景颜色 #F3F5F7 212936 -->
+  <color name="window_bg">#f4f4f4</color>
+  <!--标题白色背景-->
+  <color name="topbar_bg">#FFFFFF</color>
+  <!--分隔线灰色背景-->
+  <color name="divide_line">#eeeeee</color>
+  <!-- 主标题色 -->
+  <color name="topic_text">#FF909090</color>
+  <!--蓝色-->
+  <color name="topic">#47a0db</color>
+  <!--蓝色-->
+  <color name="lime">#47a0db</color>
+  <!-- 标题黑色字 -->
+  <color name="topbar_text">#000000</color>
+
+  <!-- 主体文字颜色 -->
+  <color name="text_bg33">#FF333333</color>
+  <color name="text_bg22">#FF222222</color>
+  <color name="text_bg20">#FF202020</color>
+  <color name="text_bg66">#FF666666</color>
+  <color name="text_bg90">#FF909090</color>
+  <color name="text_bg99">#FF999999</color>
+  <color name="text_bgb0">#FFb0b0b0</color>
+  <color name="text_red">#FFE26461</color>
+
+  <color name="qzy">#2247a0db</color>
+  <color name="blue_qzy">#4A90E2</color>
+
+</resources>

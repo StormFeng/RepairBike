@@ -1,0 +1,176 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dip"
+    android:background="@color/alpha">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_titlebar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dip"
+        android:layout_height="48dip"
+        android:background="@color/alpha">
+
+        <LinearLayout
+            android:id="@+id/title_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerInParent="true" >
+
+            <ImageView
+                android:id="@+id/title_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="7.7dp"
+                android:text="@string/title"
+                android:textSize="@dimen/textSP17"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/left_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/press_btn_bg"
+            android:clickable="true"
+            android:descendantFocusability="beforeDescendants"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp" >
+
+            <ImageButton
+                android:id="@+id/left_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/press_btn_bg"
+                android:clickable="false"
+                android:focusable="false"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/left_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/press_btn_bg"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/left"
+                android:textSize="@dimen/textSP14"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/inputArea"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:id="@+id/right_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/press_btn_bg"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/right"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/textSP14"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/right2_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@drawable/press_btn_bg"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/right_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@drawable/press_btn_bg"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/title_ll"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/progress_rotation"
+            android:indeterminateDuration="10"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:background="#12000000" />
+
+        <LinearLayout
+            android:id="@+id/inputArea"
+            android:layout_width="255dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="45dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_topbar_radiusgreen"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:focusableInTouchMode="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/icon_topbar_search" />
+
+            <EditText
+                android:id="@+id/input"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:imeOptions=""
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textColorHint="#FFFFFF"
+                android:textCursorDrawable="@drawable/text_cursor"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+</RelativeLayout>
+</LinearLayout>

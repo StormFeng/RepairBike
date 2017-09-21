@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lida.repairbike">
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".app.BaseAppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1">
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="RgtY1jyZtEPkm3Wjlu0WIwmyEVlTWoit" />
+        <service android:name="com.android.location.f"
+            android:enabled="true"
+            android:process=":remote">
+        </service>
+
+        <activity android:name=".activity.Activity_Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--&lt;!&ndash;登录&ndash;&gt;-->
+        <!--<activity android:name=".activity.Activity_Login"-->
+            <!--android:launchMode="singleTop"-->
+            <!--android:screenOrientation="portrait"/>-->
+        <!--首页-->
+        <activity android:name=".activity.Activity_Main"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--个人中心-->
+        <!--故障维修-->
+        <activity android:name=".activity.Activity_RepairList"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--维修详情-->
+        <activity android:name=".activity.Activity_RepairDetail"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--故障维修详情、原因-->
+        <activity android:name=".activity.Activity_RepairPoint"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"/>
+        <!--二维码扫描页-->
+        <activity android:name=".activity.Activity_Scanner"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--配件-->
+        <activity android:name=".activity.Activity_Part"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--故障检修-->
+        <activity android:name=".activity.Activity_CheckPoint"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"/>
+        <!--地图-->
+        <activity android:name=".activity.Activity_Map"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--地图-->
+        <activity android:name=".fragment.FragmentCamera"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--未检修页面-->
+        <activity android:name=".activity.Activity_GoCheck"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--我的维修历史纪录-->
+        <activity android:name=".activity.Activity_MyRepairHistory"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--配件管理-->
+        <activity android:name=".activity.Activity_PartManageCopy"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--配件数量-->
+        <activity android:name=".activity.Activity_PartNumber"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--个人资料-->
+        <activity android:name=".activity.Activity_MyData"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <!--配件管理-->
+        <activity android:name=".activity.Activity_PartReceive"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

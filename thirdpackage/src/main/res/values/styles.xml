@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseAppTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/window_bg</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="diy_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!-- 边框 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item><!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->
+        <item name="android:background">@color/alpha</item>
+        <item name="android:windowBackground">@color/alpha</item><!-- 自己想要的背景 -->
+        <item name="android:backgroundDimEnabled">true</item><!-- 模糊 -->
+    </style>
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_left_in</item>
+        <!--<item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>-->
+        <item name="android:activityCloseEnterAnimation">@anim/slide_right_in</item>
+        <!--<item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>-->
+    </style>
+
+    <style name="ThemeActivity">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog_msg">
+        <item name="android:windowBackground">@drawable/toast_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+
+    <style name="animation_bottom_dialog" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/bottom_dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/bottom_dialog_exit</item>
+    </style>
+    <style name="bottom_dialog">
+        <item name="android:windowAnimationStyle">@style/animation_bottom_dialog</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
